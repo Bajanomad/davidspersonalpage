@@ -71,16 +71,16 @@ const RAIN_URIS = ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABuCAYAAA
 document.getElementById("masterImg").src = MASTER_URI;
 
 const DOOR_URLS = [
-  "https://411matrix.vercel.app/arcade",                       /* crown  - games */
-  "https://411matrix.vercel.app/clima",                        /* flag   - weather */
-  "https://411matrix.vercel.app/noticias",                     /* house  - news */
-  "https://www.facebook.com/profile.php?id=61595657647422", /* K - Section 13 */
-  "https://411matrix.vercel.app/mercado",                      /* bowtie - market */
-  "https://411matrix.vercel.app/mapa"                          /* bars   - map */
+  "https://github.com/Bajanomad",                           /* crown  - GitHub */
+  null,                                                     /* flag   - disconnected */
+  null,                                                     /* house  - disconnected */
+  "https://www.facebook.com/profile.php?id=61595453098961", /* K - David on Facebook */
+  null,                                                     /* bowtie - disconnected */
+  "https://vercel.com/dashboard"                            /* bars   - Vercel */
 ];
 let aliveAt = 0;
 document.getElementById("center").addEventListener("click", () => {
-  if (introDone && performance.now() - aliveAt > 350) { /* links disconnected for now */ }
+  if (introDone && performance.now() - aliveAt > 350) location.href = "https://bajanomad.github.io/ourspace/";
 });
 const doorEls = DOOR_URLS.map((url, i) => {
   const el = document.createElement("div");
@@ -89,7 +89,7 @@ const doorEls = DOOR_URLS.map((url, i) => {
   img.src = DOOR_URIS[i]; img.alt = "";
   el.appendChild(img);
   el.setAttribute("role", "button");
-  el.addEventListener("click", () => { /* links disconnected for now */ });
+  el.addEventListener("click", () => { if (url && introDone && performance.now() - aliveAt > 350) location.href = url; });
   document.body.appendChild(el);
   return el;
 });

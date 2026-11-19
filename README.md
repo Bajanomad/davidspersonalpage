@@ -16,3 +16,4 @@ David's personal landing page: the glyph wheel. Black screen, green glyph rain, 
 
 ## Update, 2026-11-19 (David's order)
 The hacker theme is retired on this landing page: a website developer clients should trust does not brand as an ex-hacker. The wheel, the symbols and the ceremony stay exactly as designed. What changed: the background is now the deep space vista from OurSpace, every glyph and glow is recolored from orange to dark blue, the Matrix rain is gone, and ALL button hyperlinks are disconnected for now (the buttons are inert while the design settles). The 411 site root still runs the original version; this page is the new direction.
+- Same night, David wired the wheel to the new lane: center button now opens OurSpace, the crown door opens his GitHub, the K door opens his personal Facebook, and the bars door opens Vercel. The other three doors stay disconnected. The Clandestino/411 sections are a closed chapter and are not linked from here anymore.
