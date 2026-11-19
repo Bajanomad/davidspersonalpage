@@ -13,3 +13,6 @@ David's personal landing page: the glyph wheel. Black screen, green glyph rain, 
 ## Decisions log
 
 - 2026-11-18: Created as its own repo at David's order, seeded with the wheel landing page from 411matrix. Door links made absolute to the live 411 sections so the page works standalone. Page metadata retitled to David's Personal Page; the visible page still carries no text at all.
+
+## Update, 2026-11-19 (David's order)
+The hacker theme is retired on this landing page: a website developer clients should trust does not brand as an ex-hacker. The wheel, the symbols and the ceremony stay exactly as designed. What changed: the background is now the deep space vista from OurSpace, every glyph and glow is recolored from orange to dark blue, the Matrix rain is gone, and ALL button hyperlinks are disconnected for now (the buttons are inert while the design settles). The 411 site root still runs the original version; this page is the new direction.
